@@ -1,6 +1,6 @@
 {
 .appVersion = "1045";
-copyright = "Copyright 2011 Google Inc. All Rights Reserved.";
+copyright = "Copyright 2017 The Mardoto Project Authors (https://github.com/vahanhovh/mardoto)";
 customParameters = (
 {
 name = license;
@@ -28,50 +28,71 @@ name = "Use Line Breaks";
 value = 1;
 }
 );
-date = "2008-09-12 19:29:34 +0000";
-designer = "Christian Robertson, Armenian symbols added by Vahan Hovhannisyan";
+date = "2017-07-27 09:57:37 +0000";
+designer = "Christian Robertson, Vahan Hovhannisyan";
 designerURL = "http://Google.com";
 disablesNiceNames = 1;
 familyName = Mardoto;
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
 features = (
 {
-code = "script latn;
-language FRA ;
-sub uni2009 by g1108;
-language MOL ;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
-language NAV ;
-sub Aogonek by g3316;
-sub aogonek by g3317;
-sub Eogonek by g3318;
-sub eogonek by g3319;
-sub g2461 by g3322;
-sub g2470 by g3323;
-sub g2494 by g3324;
-sub uni01EA by g3320;
-sub uni01EB by g3321;
-language ROM ;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
+automatic = 1;
+code = "feature sups;
+feature frac;
+feature ordn;
 ";
-name = locl;
+name = aalt;
 },
 {
 automatic = 1;
-code = "sub f i by fi;
-sub f l by fl;
-sub Ech-arm Vew-arm by Ech-arm_Vew-arm.liga;
-sub To-arm Yi-arm by To-arm_Yi-arm.liga;
-sub Men-arm Ca-arm by Men-arm_Ca-arm.liga;
-sub Men-arm Now-arm by Men-arm_Now-arm.liga;
-sub Men-arm now-arm by Men-arm_now-arm.liga;
-sub men-arm ech-arm by men-arm_ech-arm.liga;
-sub men-arm ken-arm by men-arm_ken-arm.liga;
-sub men-arm now-arm by men-arm_now-arm.liga;
-sub vo-arm emphasis-arm yiwn-arm by vo-arm_emphasis-arm_yiwn-arm.liga;
-sub vo-arm exclam-arm yiwn-arm by vo-arm_exclam-arm_yiwn-arm.liga;
-sub vo-arm question-arm yiwn-arm by vo-arm_question-arm_yiwn-arm.liga;
+code = "sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+";
+name = sups;
+},
+{
+automatic = 1;
+code = "sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+";
+name = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+name = ordn;
+},
+{
+automatic = 1;
+code = "sub ech-arm yiwn-arm by ech_yiwn-arm;
+";
+name = dlig;
+},
+{
+automatic = 1;
+code = "sub vo-arm emphasis-arm yiwn-arm by vo_emphasis_yiwn-arm.liga;
+sub vo-arm exclam-arm yiwn-arm by vo_exclam_yiwn-arm.liga;
+sub vo-arm question-arm yiwn-arm by vo_question_yiwn-arm.liga;
+sub Ech-arm Vew-arm by Ech_Vew-arm.liga;
+sub To-arm Yi-arm by To_Yi-arm.liga;
+sub Men-arm Ca-arm by Men_Ca-arm.liga;
+sub Men-arm Now-arm by Men_Now-arm.liga;
+sub Men-arm now-arm by Men_now-arm.liga;
+sub men-arm ken-arm by men_ken-arm.liga;
+sub men-arm now-arm by men_now-arm.liga;
+sub men-arm ech-arm by men_ech-arm.liga;
 ";
 name = liga;
 }
@@ -167313,6 +167334,6 @@ f = 13;
 manufacturer = Google;
 manufacturerURL = "http://Google.com";
 unitsPerEm = 2048;
-versionMajor = 2;
-versionMinor = 136;
+versionMajor = 1;
+versionMinor = 0;
 }
