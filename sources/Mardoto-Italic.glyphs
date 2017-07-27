@@ -110,24 +110,32 @@ ascender = 2146;
 capHeight = 1456;
 customParameters = (
 {
+name = underlinePosition;
+value = -200;
+},
+{
+name = underlineThickness;
+value = 100;
+},
+{
 name = typoAscender;
-value = 2146;
+value = 1536;
 },
 {
 name = typoDescender;
-value = -555;
+value = -512;
 },
 {
 name = typoLineGap;
-value = 0;
+value = 102;
 },
 {
 name = winAscent;
-value = 2146;
+value = 1946;
 },
 {
 name = winDescent;
-value = 555;
+value = 512;
 },
 {
 name = hheaAscender;
@@ -138,12 +146,8 @@ name = hheaDescender;
 value = -500;
 },
 {
-name = underlinePosition;
-value = -200;
-},
-{
-name = underlineThickness;
-value = 100;
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -555;
@@ -172,24 +176,32 @@ ascender = 2146;
 capHeight = 1456;
 customParameters = (
 {
+name = underlinePosition;
+value = -200;
+},
+{
+name = underlineThickness;
+value = 100;
+},
+{
 name = typoAscender;
-value = 2146;
+value = 1536;
 },
 {
 name = typoDescender;
-value = -555;
+value = -512;
 },
 {
 name = typoLineGap;
-value = 0;
+value = 102;
 },
 {
 name = winAscent;
-value = 2146;
+value = 1946;
 },
 {
 name = winDescent;
-value = 555;
+value = 512;
 },
 {
 name = hheaAscender;
@@ -200,12 +212,8 @@ name = hheaDescender;
 value = -500;
 },
 {
-name = underlinePosition;
-value = -200;
-},
-{
-name = underlineThickness;
-value = 100;
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -555;
@@ -236,24 +244,32 @@ ascender = 2146;
 capHeight = 1456;
 customParameters = (
 {
+name = underlinePosition;
+value = -200;
+},
+{
+name = underlineThickness;
+value = 100;
+},
+{
 name = typoAscender;
-value = 2146;
+value = 1536;
 },
 {
 name = typoDescender;
-value = -555;
+value = -512;
 },
 {
 name = typoLineGap;
-value = 0;
+value = 102;
 },
 {
 name = winAscent;
-value = 2146;
+value = 1946;
 },
 {
 name = winDescent;
-value = 555;
+value = 512;
 },
 {
 name = hheaAscender;
@@ -264,12 +280,8 @@ name = hheaDescender;
 value = -500;
 },
 {
-name = underlinePosition;
-value = -200;
-},
-{
-name = underlineThickness;
-value = 100;
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -555;
@@ -299,24 +311,32 @@ ascender = 2146;
 capHeight = 1456;
 customParameters = (
 {
+name = underlinePosition;
+value = -200;
+},
+{
+name = underlineThickness;
+value = 100;
+},
+{
 name = typoAscender;
-value = 2146;
+value = 1536;
 },
 {
 name = typoDescender;
-value = -555;
+value = -512;
 },
 {
 name = typoLineGap;
-value = 0;
+value = 102;
 },
 {
 name = winAscent;
-value = 2146;
+value = 1946;
 },
 {
 name = winDescent;
-value = 555;
+value = 512;
 },
 {
 name = hheaAscender;
@@ -327,12 +347,8 @@ name = hheaDescender;
 value = -500;
 },
 {
-name = underlinePosition;
-value = -200;
-},
-{
-name = underlineThickness;
-value = 100;
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -555;
@@ -362,24 +378,32 @@ ascender = 2146;
 capHeight = 1456;
 customParameters = (
 {
+name = underlinePosition;
+value = -200;
+},
+{
+name = underlineThickness;
+value = 100;
+},
+{
 name = typoAscender;
-value = 2146;
+value = 1536;
 },
 {
 name = typoDescender;
-value = -555;
+value = -512;
 },
 {
 name = typoLineGap;
-value = 0;
+value = 102;
 },
 {
 name = winAscent;
-value = 2146;
+value = 1946;
 },
 {
 name = winDescent;
-value = 555;
+value = 512;
 },
 {
 name = hheaAscender;
@@ -390,12 +414,8 @@ name = hheaDescender;
 value = -500;
 },
 {
-name = underlinePosition;
-value = -200;
-},
-{
-name = underlineThickness;
-value = 100;
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -555;
@@ -426,24 +446,32 @@ ascender = 2146;
 capHeight = 1456;
 customParameters = (
 {
+name = underlinePosition;
+value = -200;
+},
+{
+name = underlineThickness;
+value = 100;
+},
+{
 name = typoAscender;
-value = 2146;
+value = 1536;
 },
 {
 name = typoDescender;
-value = -555;
+value = -512;
 },
 {
 name = typoLineGap;
-value = 0;
+value = 102;
 },
 {
 name = winAscent;
-value = 2146;
+value = 1946;
 },
 {
 name = winDescent;
-value = 555;
+value = 512;
 },
 {
 name = hheaAscender;
@@ -454,12 +482,8 @@ name = hheaDescender;
 value = -500;
 },
 {
-name = underlinePosition;
-value = -200;
-},
-{
-name = underlineThickness;
-value = 100;
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -555;
